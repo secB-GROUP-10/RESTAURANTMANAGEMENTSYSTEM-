@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../..//resources/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,
+           400;0,600;1,200;1,600&display=swap" rel="stylesheet">
+           <script src="https://kit.fontawesome.com/4a085e9b53.js" crossorigin="anonymous"></script>
+           <script src="../../resources/js/main.js" async></script>
+           <title>Sen'q Restaurant</title>
+</head>
+<body>
+    <!--Header starts-->
+    <div class="add">      
+                <div class="add-btn">
+                    <button onclick="window.location.href='auth/login.html'" >Log in</button>
+                    <button onclick="window.location.href='auth/sign up.html'">Sign up</button>    
+                </div>      
+              
+    </div>
+    <header class="header">
+       
+        <!--Nav begins-->
+        <nav>
+            <span class="name">SEN'Q
+                <img src="../..//resources/images/snk2.jpg" alt="logo"> 
+            </span>
+           
+            
+            <div class="nav-links"  id="navLink">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <div class="continer">
+                <button onclick="window.location.href='ideas/Book.html#takeAway'" >Pick up</button>
+                <button onclick="window.location.href='ideas/Book.html#delivery'" >Delivery</button>
+                <button onclick="window.location.href='ideas/Book.html#bookTable'">Book</button>
+            </div>
+               
+               <ul>
+                    <li><a href="index1.html">Home</a></li>
+                    <li><a href="ideas/aboutus.html">About</a></li>
+                    <li><a href="ideas/menuu.html">Menu</a></li>
+                    
+                    <li><a href="ideas/contactus.html">Contact us</a></li>
+                </ul>
+            </div>
+           
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="title">
+            <h1>SEN'Q RESTAURANT</h1>
+            <p>"When you think of food, think of Ethiopian food."</p>
+            <a href="ideas/Book.html" class="btn hero-btn">ORDER NOW</a>        
+    <!--Nav ends-->
+</header>
+<!--Header ends-->
+<!--Menu starts-->
+<section class="menu">
+    <div class="menu-sec" id="menuSec">
+        <div class="card">
+            <img src="../..//resources/images/shiro.jpg" alt="food" loading="lazy"> 
+            <h4>Shiro</h4>
+        </div>
+        <div class="card">
+            <img src="../..//resources\images\aynet.png" alt="food" loading="lazy"> 
+            <h4>Aynet</h4>
+        </div>
+        <div class="card">
+            <img src="../..//resources\images\tibs.jpg" alt="food" loading="lazy"> 
+            <h4>Tibs</h4>
+        </div>
+        <div class="card">
+            <img src="../..//resources\images\tej.jpg" alt="Ethiopian Drink" loading="lazy"> 
+            <h4>Tej</h4>
+        </div>
+        <div class="card">
+            <img src="../..//resources\images\chororsaa.jpg" alt="food" loading="lazy"> 
+            <h4>Chororsaa</h4>
+        </div>
+        <div class="card">
+            <img src="../..//resources/images/ambasha.jpg" alt="food" loading="lazy"> 
+            <h4>Ambasha</h4>
+        </div>
+        <div class="card">
+            <img src="../..//resources/images/chuko.png" alt="food" loading="lazy"> 
+            <h4>Chuko</h4>
+        </div>
+        <div class="card">
+            <img src="../..//resources/images/anchote.png" alt="food" loading="lazy"> 
+            <h4>Anchote</h4>
+        </div>
+        <div class="card">
+            <img src="../..//resources/images/gored gored.jpg" alt="food" loading="lazy"> 
+            <h4>GoredGored</h4>
+        </div>
+        <div class="card">
+            <img src="../..//resources/images/ambasha.jpg" alt="food" loading="lazy"> 
+            <h4>Ambasha</h4>
+        </div>
+        
+    </div>
+    <img src="../..//resources/images/arrow.png" class="icon-left" id="left-arrow" alt="left arrow">
+    <img  src="../..//resources/images/arrow.png" class="icon-right" id="right-arrow" alt="right arrow ">
+    <h2>MENU</h2>
+    
+</section>
+<!--Menu ends-->
+<!--About us starts-->
+<section class="about-us sec-padding" id="about">
+    <div class="row">
+        <div class="about-title">
+            <h2 data-title="our story">About us</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="about-text">
+           <h3>Welcome to Sen'q Restaurant</h3>
+           <p>The word SEN'Q is a collection of food put in a special container called AGELGIL.It mainly practice 
+               in the rural area of Ethiopia to deliver food <br>for farmers specifically who work in a team for crop gathering,
+                at time of lunch their wives come with food inside Ageligl which is called SEN'Q and also with a traditional drink called Tela. 
+                Not only for farmers it is also used for 
+                a person who will travel longway by foot, when he gets tired he 
+               will rest and eat his Sinq whose mother or wive made it.</p>
+               
+        </div>
+        <div class="about-img">
+           <div class="img-box">
+               <h3>Delicious Foods</h3>
+                <img src="../..//resources/images/delicious.jpeg" alt="Ethiopian food">
+           </div>   
+        </div>
+    </div>
+
+</section>
+<!--About us ends-->
+<!--service starts-->
+<section class="service">
+    <h2>OUR SERVICES</h2>
+    <p>Come and Enjoy with us or Take it home </p>
+    <div class="row">
+        <div class="service-col">
+            <img id="book"src="../..//resources/images/firstrotatedimg.jpeg" alt="table with food">
+            <div class="layer">
+                <h3>Book Your Table</h3>
+            </div>
+            
+        </div>
+       
+        <div class="service-col">
+            <img id="take" src="../..//resources/images/mirt sebseb.jpg" alt="take away">
+            <div class="layer">
+                <h3>Pick up </h3>
+            </div>
+            
+        </div>
+        
+        <div class="service-col">
+            <img id="pick"src="../..//resources/images/habesham.jpg" alt="Pick up">
+            <div class="layer">
+                <h3>Delivery</h3>
+            </div>  
+             
+        </div>
+        
+    </div>
+    
+
+</section>
+<!--service ends-->
+
+<!--footer section starts-->
+<footer class="footer">
+    <div class="row">
+       <div class="footer-col">
+           <h4>Our loction</h4>
+           <p>Ethiopia,Addis Ababa,<br>Kasaches
+        </p>
+       </div>
+       <div class="footer-col">
+        <h4>Opening hours</h4>
+        <p>Monday to Sunday<br>7:00 AM - 9:00 PM</p>
+    </div>
+    <div class="footer-col">
+        <h4>Quick links</h4>
+        
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="../views/ideas/aboutus.html">About</a></li>
+            <li><a href="../views/ideas/menuu.html">Menu</a></li>
+            
+            <li><a href="#">Privay</a></li>
+            <li><a href="#">Terms of use</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h4>Contact us</h4>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/iftu.tesfaye.505"><i class="fab fa-facebook"></i></a>
+            <a href="https://t.me/Hggs12"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.instagram.com/edlghana"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="copyright">
+            <small>&copy Sen'q restaurant,All right are reserved.</small>
+        </div>
+    </div>
+</footer>
+<!--footer section starts-->
+
+</body>
+</html>
