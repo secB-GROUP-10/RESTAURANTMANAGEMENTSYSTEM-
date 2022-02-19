@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sign In </title>
+        <link rel="stylesheet" href="../../..//resources/css/main.css">
+    <script src="../../..//resources/js/main.js"></script></head>
+    </head>
+    <body >
+        
+        <div class="signin" >
+          <form action="../ideas/Book.html" >
+            <h1>Sign In</h1>
+              
+              <label for="text">Full Name</label>
+              <input type="text" placeholder="Enter Full name" name="text" pattern="[a-z]{1,15}"required>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter Email" name="email" required>
+          
+              <label for="psw">Password</label>
+              <input type="password" id="password1" placeholder="Enter Password" name="psw" required minlength="8"> 
+          
+              <label for="psw-repeat"><b>Confirm Password</b></label>
+              <input type="password" id="password2" minlength="8"
+               placeholder="Repeat Password" name="psw-repeat" required> 
+          
+              <div class="sign-in-link">
+                <p>Aleardy have an account<a href="login.html"> Log In</a></p> 
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>                                                                                                                   
+            </div>
+            <input type="reset"value="Reset">
+            <input type="submit" value="Signin" onclick="check2()">
+              
+          </form>
+        </div>
+    </body>
+</html>

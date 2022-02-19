@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../..//resources/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,
+           400;0,600;1,200;1,600&display=swap" rel="stylesheet">
+           <script src="https://kit.fontawesome.com/4a085e9b53.js" crossorigin="anonymous"></script>
+            <script src="../../../resources/js/main.js" async  ></script>
+           <title>Sen'q Restaurant</title>
+</head>
+<body>
+    <!--Header starts-->
+    <section class="add">
+        <div class="row">
+              
+              <div class="add-col">
+                <div class="add-btn">
+                    <button onclick="window.location.href='../auth/login.html'">Log in</button>
+                    <button onclick="window.location.href='../auth/sign up.html'">Sign up</button>
+                    
+                </div>      
+              </div>
+        </div>
+       
+    </section>
+    <header class="header-Others">
+       
+        <!--Nav begins-->
+        <nav>
+           
+            <span class="name">SEN'Q
+                <img src="../../../resources/images/snk2.jpg" alt="logo"> 
+            </span>
+           
+            <div class="nav-links" id="navLink" >
+               <i class="fa fa-times" onclick="hideMenu()"></i> 
+               <div class="continer">
+                <button onclick="window.location.href='Book.html#takeAway'">Pick up</button>
+                <button onclick="window.location.href='Book.html#delivery'">Delivery</button>
+                <button onclick="window.location.href='Book.html#bookTable'">Book</button>
+            </div>
+               
+                <ul>
+                    <li><a href="../index1.html">Home</a></li>
+                    <li><a href="../../views/ideas/aboutus.html">About</a></li>
+                    <li><a href="menuu.html">Menu</a></li>
+                   
+                    <li><a href="contactus.html">Contact us</a></li>
+                </ul> 
+               
+            </div>
+           
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+         
+    <!--Nav ends-->
+</header>
+<!--Header ends-->
+
+<!--Breakfast Menu starts-->
+<div class="breakfast">
+   
+    <div class="sub-title">
+        <h3><span>Brearfast</span>Menu</h3>
+    </div>
+    <div class="all-menu">
+        <div class="single-menu">
+            <img class="food-item-image" src="../../..//resources/images/fuul.jpg" alt="Fuul">
+            <div class="menu-content">
+                <h4 class="food-item-title">Fuul/ፉል </h4>
+                <p>Fuul is a popular protein-packed stew with lots of potential. The base of the dish is created with red onions, tomatoes, and garlic which are cooked down before fava beans are added in with various spices. Together, these ingredients deliver a rich and spicy umami flavour
+                     that leaves you feeling satisfied and energized.</p>
+                <span class="food-item-price">100birr</span>
+                <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>                </div>
+            </div>
+           
+
+
+        </div>
+        <div class="single-menu">
+            <img class="food-item-image" src="../../..//resources/images/ertib.png" alt="ertib">
+            <div class="menu-content">
+                <h4 class="food-item-title">Ertib/እርጥብ </h4>
+                <p>Fried sliced onion mixed with fried potato, rosmary, green chilli, grounded red chili (ሚጥሚጣ) and other spices served with bread</p>
+                <span class="food-item-price">60birr</span>
+                <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>                </div>
+            </div>
+
+
+        </div>
+        <div class="single-menu">
+            <img class="food-item-image" src="../../..//resources/images/firfir.jpg" alt ="firfir">
+            <div class="menu-content">
+                <h4 class="food-item-title">Fir-fir/ ፍርፍር </h4>
+                <p>shredded leftover injerathat’s stir-fried with berbere</p>
+                <span class="food-item-price">60birr</span>
+                <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="single-menu">
+            <img class="food-item-image" src="../../..//resources/images/fatira1.jpg"  alt="Fatira">
+            <div class="menu-content">
+                <h4 class="food-item-title">Fatira/ ፈጢራ </h4>
+                <p>Fetira, Ethiopian breakfast. A fried and crispy - 
+                    almost pastry like breakfast. This flaky, pancake-like base can be filled with vegetables, meat, 
+                    and fruit, but is most commonly filled with eggs.</p>
+                <span class="food-item-price">150birr</span>
+                <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="single-menu">
+            <img class="food-item-image" src="../../..//resources/images/kinchie.jpg" alt="kinche">
+            <div class="menu-content">
+                <h4 class="food-item-title">Kinche/ቅንጬ </h4>
+                <p>Simple, nutritious, and inexpensive, kinche is an Ethiopian breakfast staple made with cracked wheat that is boiled in either water or milk. The best way to describe kinche 
+                    would be as the Ethiopian equivalent of oatmeal.</p>
+                <span class="food-item-price">70birr</span>
+                <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="single-menu">
+            <img class="food-item-image" src="../../..//resources/images/chechebsa.jpg" alt="chechebsa">
+            <div class="menu-content">
+                <h4 class="food-item-title">Chechebsa/ጨጨብሳ </h4>
+                <p>thin pastry will be sliced in hand with appropriate size and mixed with butterand berbere</p>
+                <span class="food-item-price">100birr</span>
+                <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+
+
+        </div>
+    </div>
+<!-------------Breakfast Menu Ends------------->
+<!-----Lunch and dinner starts------------------>
+<div class="lunchDinner">
+    <div class="sub-title">
+        <h3><span>Lunch and dinner</span>Menu</h3>
+    </div>
+    <div class="all-menu">
+        <div class="single-menu ">
+            <img class="food-item-image" src="../../..//resources/images/quanta-firfr.jpg" alt="Quanta-firfir">
+             <div class="menu-content">
+            <h4 class="food-item-title">quanta fifir </h4>
+               <p>Quanta Firfir is a popular traditional Ethiopian dish. Enjoy this Quanta Firfir recipe which can 
+                    also be made with fresh beef or lamb!</p>
+                
+            
+                
+                <div class="continer">
+                    <span class="food-item-price">150birr</span>
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+               
+            </div>
+        </div>
+        </div>
+    
+     <div class="single-menu">
+        <img class="food-item-image"src="../../..//resources/images/afagn.png" alt="Afagn">
+        <div class="menu-content">
+            <h4 class="food-item-title">Afagnአፋኝ </h4>
+            <p>Handmade grounded beef, panfried in butter with spiciest pepper,  garlic and ginger</p>
+            <span class="food-item-price">250birr</span>
+            <div class="continer">
+                <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+ <div class="single-menu">
+    <img class="food-item-image" src="../../..//resources/images/kikil.jpg" alt="Kikil wet">
+    <div class="menu-content">
+        <h4 class="food-item-title" >Kikil/ቅቅል </h4>
+        <p>soaked beef bone will be cooked  then add panfried onion, pepper, tomato, garlic and green chili paste ,
+        powdered rosemary, turmeric  and butter to give color and taste. </p>
+                <span class="food-item-price">250birr</span>
+                <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+                </div>
+    </div>
+</div>
+<div class="single-menu">
+    <img class="food-item-image" src="../../..//resources/images/gomen kitfo.jpg" alt="Gomenkitfo">
+    <div class="menu-content">
+        <h4 class="food-item-title">Gomenkitfo/ጎመንክትፎ </h4>
+        <p>simarogomen only leaf will be used  and coked in boiled water and chopped and grounded by hand with 
+                taba butter will be melted and gomen will be fried and mitmita and other spices will be added 
+                and served with kocho and mixed and served in taba</p>
+                <span class="food-item-price">250birr</span>
+                <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+                </div>
+    </div>
+</div>
+<div class="single-menu">
+    <img class="food-item-image" src="../../..//resources/images/chororsaa.jpg" alt="Chororsa">
+    <div class="menu-content">
+        <h4 class="food-item-title">Chororsa/ጮሮርሳ </h4>
+        <p>dough of teff  will be baked  in ahot fried pan. Garlicgrounded red chili (ሚጥሚጣ) and 
+                ayib will be mixed with butter  and placed in the surfave of the baked kita </p>
+                <span class="food-item-price">400birr</span>
+                <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+                </div>
+    </div>
+</div>
+<div class="single-menu">
+    <img class="food-item-image" src="../../..//resources/images/gored gored.jpg" alt="Gored Gored">
+    <div class="menu-content">
+        <h4 class="food-item-title">Gored gored/ጎረድጎረድ</h4>
+        <p>butter, grounded red chili (ሚጥሚጣ),sliced beef and other spices will be mixed in a hot pan </p>
+        <span class="food-item-price">300birr</span>
+        <div class="continer">
+            <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+        </div>
+    </div>
+</div>
+<div class="single-menu">
+    <img class="food-item-title" src="../../..//resources/images/shekla tbs.jpg" alt="shekla tibs">
+    <div class="menu-content">
+        <h4 class="food-item-title">Shekla-tibs/ሸክላጥብስ </h4>
+        <p>Sliced beef or lamb, pan-fried in butter, garlic and onion</p>
+        <span class="food-item-price">200birr</span>
+        <div class="continer">
+        <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+    </div>
+    </div>
+</div>
+<div class="single-menu">
+    <img class="food-item-image" src="../../..//resources/images/kitfo.jpg" alt="Kitfo">
+    <div class="menu-content">
+        <h4 class="food-item-title">Kitfo/ክትፎ</h4>
+        <p>It is ground raw beef , butter ,grounded red chili (ሚጥሚጣ) with a special flatbread called kocho</p>
+        <span class="food-item-price">300birr</span>
+        <div class="continer">
+            <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+        </div>
+    </div>
+</div>
+<div class="single-menu">
+    <img class="food-item-image"src="../../..//resources/images/dulet.jpg" alt="dulet">
+    <div class="menu-content">
+        <h4 class="food-item-title">Dulet/ዱለት </h4>
+        <p>It's made with minced tripe (an animal's stomach lining), along with liver and lean beef fried in butter, onions, chilli, cardamom and pepper.</p>
+        <span class="food-item-price">300birr</span>
+        <div class="continer">
+            <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+        </div>
+    </div>
+</div>
+<div class="single-menu">
+    <img class="food-item-image" src="../../..//resources/images/tihlo.jpg" alt="Tihlo">
+    <div class="menu-content">
+        <h4 class="food-item-title">Tihilo/ጥህሎ </h4>
+        <p>A specialty in Tigray, consisting of barley balls pierced by carved sticks with two prongs at the end and dipped in a fiery-looking sauce made from pulses, flour and spices.
+                 </p>
+                 <span class="food-item-price">450birr</span>
+                 <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+                </div>
+    </div>
+</div>
+<div class="single-menu">
+    <img class="food-item-image"src="../../..//resources/images/beyaynet.jpg" alt="Beyaynet">
+    <div class="menu-content">
+        <h4 class="food-item-title">Beyaynet/በየአይነት </h4>
+        <p>It is to mean "a bit of every type," hence your injera arrives blanketed in piles of tasty and colorful vegetables, potatoes, curries, lentil stews and more, creating a riot of colors and tastes.
+                 </p>
+                 <span class="food-item-price">250birr</span>
+                 <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+                </div>
+    </div>
+</div>
+<div class="single-menu">
+    <img class="food-item-image"src="../../..//resources/images/shiro.jpg" alt="shiro">
+    <div class="menu-content">
+        <h4 class="food-item-title">Shiro/ ሽሮ </h4>
+        <p>A flour of ground split peas and chickpeas with kibbe, or spiced clarified butter.</p>
+        <span class="food-item-price">150birr</span>
+        <div class="continer">
+            <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+        </div>
+    </div>
+</div>
+<div class="single-menu">
+    <img class="food-item-image" src="../../..//resources/images/anchote.png" alt="anchote">
+    <div class="menu-content">
+        <h4 class="food-item-title">Anchote/አንጮቴ</h4>
+        <p>Anchote boiled ,chopped and mixed with onion, turmeric,  garlic, butter, ginger</p>
+        <span class="food-item-price">300birr</span>
+        <div class="continer">
+            <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+        </div>
+    </div>
+</div>
+<div class="single-menu">
+    <img class="food-item-image"src="../../..//resources/images/dorowot.jpg" alt="Dorowot">
+    <div class="menu-content">
+        <h4 class="food-item-title">Dorowot/ዶሮ ወጥ </h4>
+        <p>The Crown Jewel of Ethiopian Cuisine Doro Wot (Direct translation from Amharic - the language spoken in Ethiopian) Doro wot literally means “chicken stew.” 
+            The word doro stands for chicken, and wot means stew.</p>
+        <span class="food-item-price">500birr</span>
+        <div class="continer">
+            <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+        </div>
+    </div>
+</div>
+<div class="single-menu">
+    <img class="food-item-image" src="../../..//resources/images/misir.jpg" alt="Misr wet">
+    <div class="menu-content">
+        <h4 class="food-item-title">Misr/ምስር </h4>
+        <p>Healthy, protein packed, and richly spiced, Misir Wot is a truly memorable satisfying dish. 
+            Cover lentils in water and soak them while you chop your veggies (onion, garlic, ginger, and tomato).
+           Pre-heat pot to low-medium heat (do not add any oil). Set veggies aside then rinse lentils until water runs clear.</p>
+           <span class="food-item-price">90birr</span>
+           <div class="continer">
+            <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+        </div>
+            
+    </div>
+</div>
+</div>
+</div>
+
+<!------------------Lunch and diiner menu ends--------------->
+
+
+
+<!-------------------Snack menu starts----------------------->
+
+<div class="snack">
+    <div class="sub-title">
+        <h3><span>Snack</span>menu</h3>
+    </div>
+    <div class="all-menu">
+      <div class="single-menu">
+        <img class="food-item-image" src="../../..//resources/images/anebabero.jpg" alt="Anebabero">
+        <div class="menu-content">
+            <h4 class="food-item-title">Anebabero / አነባበሮ </h4>
+            <p>A dough of flour of teff, yeast and salt will be baked and served</p>
+            <span class="food-item-price">100birr</span>
+            <div class="continer">
+                <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+            </div>
+        </div> 
+        </div>
+        <div class="single-menu">
+            <img class="food-item-image" src="../../..//resources/images/dabokolo.jpg" alt="Dabokolo">
+            <div class="menu-content">
+                <h4 class="food-item-title">Dabokolo/ዳቦቆሎ</h4>
+                <p>A dough of wheat flour will be sliced with appropriate amount of size will be roasted
+                in hot pan and will be mixed with Kimando(made with suf),grounded red chili(ሚጥሚጣ) and oil
+                </p>
+                <span class="food-item-price">90birr</span>
+                <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+                </div>
+            </div>      
+     </div>
+     <div class="single-menu">
+        <img class="food-item-image" src="../../..//resources/images/ambasha.jpg" alt="Anbasha">
+        <div class="menu-content">
+            <h4 class="food-item-title">Ambasha </h4>
+            <p>A dough of flour of mixed cerials, yeast and salt will be baked and served </p>
+            <span class="food-item-price">90birr</span>
+            <div class="continer">
+                <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+            </div>
+        </div> 
+        </div>
+        <div class="single-menu">
+            <img class="food-item-image" src="../../..//resources/images/kolo.bmp" alt="Kolo">
+            <div class="menu-content">
+                <h4 class="food-item-title">Kolo</h4>
+                <p>roasted barley</p>
+                <span class="food-item-price">90birr</span>
+                <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+                </div>
+            </div>  
+
+    </div>
+    <div class="single-menu">
+        <img class="food-item-image" src="../../..//resources/images/chuko.png" alt="Chuko">
+        <div class="menu-content">
+            <h4 class="food-item-title">Chuko/ጩኮ </h4>
+            <p> Chuko, barley conserved with butter, is 
+                traditional food of Oromia region in Ethiopia. 
+                It is traditionally made by women from barley
+                 powder mixed with a sufficient amount of distilled 
+                 butter,
+                 along with ginger, onion, salt and spices.</p>
+            <span class="food-item-price">200birr</span>
+            <div class="continer">
+                <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+            </div>
+        </div> 
+</div>
+</div>
+</div>
+<!-------------------Snack menu ends------------------------->
+<!-------------------Beverage menu starts-------------------->
+<div class="beverage">
+    <div class="sub-title">
+        <h3><span>Beverage</span>Menu</h3>
+    </div>
+    <div class="all-menu">
+        <div class="single-menu">
+            <img class="food-item-image" src="../../..//resources/images/tej.jpg" alt="tej">
+            <div class="menu-content">
+               <h4 class="food-item-title">Tej/ጠጅ </h4>
+               <p> Tej, is a potent honey wine or mead that is brewed and widely consumed in much of Ethiopia.
+                    It is prepared from honey and a green herb called Gesho, a very important additive in almost all of the alcoholic drinks of Ethiopia. 
+                    Tej comes in varying degrees of sweetness that deceptively masks the high alcohol content of the drink. 
+                    It is typically served in a rounded vase-like or beaker-like glass container called a Berele, but if you are new to the drink one Berele maybe too much.
+                    Just like any other wine, Tej can be stored for a long time; and longer it is stored, the higher the alcohol content, and the stronger the taste.
+                </p>
+                <span class="food-item-price">200birr</span>
+                <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+                </div>
+            </div> 
+
+        </div>
+        <div class="single-menu">
+            <img class="food-item-image" src="../../..//resources/images/tella.jpg" alt="Tella">
+            <div class="menu-content">
+               <h4 class="food-item-title">Tella/ጠላ </h4>
+               <p>Tella is another popular alcoholic drink in Ethiopia. 
+                    It is a traditional home-brewed beer that is brewed from various grains, usually Teff barley, maize and sorghum blended Gesho.
+                     A traditional Ethiopian beer made from Teff, barley, maize or other grains blended with a green herb called Gesho. 
+                    Tella is usually brewed at home. You’ll often find it in grimy, nondescript plastic bottles lurking in the doorways of local homes. 
+                    Alcohol concentrations vary widely.
+                </p>
+                <span class="food-item-price">200birr</span>
+                <div class="continer">
+                    <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+                </div>
+            </div> 
+
+        </div>
+        <div class="single-menu">
+            <img class="food-item-image" src="../../..//resources/images/birz.jpg" alt="Birz">
+            <div class="menu-content">
+               <h4 class="food-item-image">Birz/ብርዝ </h4>
+               <p>birz is made from pure honey and water</p>
+               <span class="food-item-price">200birr</span>
+            </div>
+               <div class="continer">
+                <button class="food-item-button" onclick="window.location.href='#cart'">Add to Cart</button>
+            
+            </div> 
+                
+            </div>
+            
+        </div>
+    </div>
+   
+</div>
+
+<!-------------------Beverage menu ends---------------------->
+<!--service ends-->
+ 
+<div class="cart" id="cart">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">0birr</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</div> 
+
+
+<!--footer section starts-->
+<footer class="footer">
+    <div class="row">
+       <div class="footer-col">
+           <h4>Our loction</h4>
+           <p>Ethiopia,Addis Ababa,<br>Kasaches
+        </p>
+       </div>
+       <div class="footer-col">
+        <h4>Opening hours</h4>
+        <p>Monday to Sunday<br>7:00 AM - 9:00 PM</p>
+    </div>
+    <div class="footer-col">
+        <h4>Quick links</h4>
+        
+        <ul>
+            <li><a href="../index1.html">Home</a></li>
+            <li><a href="../ideas/aboutus.html">About</a></li>
+            <li><a href="menuu.html">Menu</a></li>
+            <li><a href="">Privay</a></li>
+            <li><a href="">Terms of use</a></li>
+            
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h4>Contact us</h4>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/iftu.tesfaye.505"><i class="fab fa-facebook"></i></a>
+            <a href="https://t.me/Hggs12"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.instagram.com/edlghana"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="copyright">
+            <small>&copy Sen'q restaurant,All right are reserved.</small>
+        </div>
+    </div>
+</footer>
+<!--footer section starts-->
+ 
+</body>
+</html>

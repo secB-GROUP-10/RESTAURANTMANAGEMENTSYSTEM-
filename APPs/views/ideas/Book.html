@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../resources/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,
+           400;0,600;1,200;1,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a085e9b53.js" crossorigin="anonymous"></script>
+    <title>Book</title>
+    <script src="../../..//resources/js/main.js" async></script>
+</head>
+
+<body>
+    <!--Header starts-->
+    <div class="add">      
+        <div class="add-btn">
+            <button onclick="window.location.href='../auth/login.html'" >Log in</button>
+            <button onclick="window.location.href='../auth/sign up.html'">Sign up</button>
+             
+        </div>      
+      
+</div>
+    <header class="header-Others">
+       
+        <!--Nav begins-->
+        <nav>
+           
+            <span class="name">SEN'Q
+                <img src="../../../resources/images/snk2.jpg" alt="logo"> 
+            </span>
+           
+            <div class="nav-links" id="navLink" >
+               <i class="fa fa-times" onclick="hideMenu()"></i> 
+               <div class="continer">
+                <button onclick="window.location.href='Book.html#takeAway'">Pick up</button>
+                <button onclick="window.location.href='Book.html#delivery'">Delivery</button>
+                <button onclick="window.location.href='Book.html#bookTable'">Book</button>
+            </div>
+               
+                <ul>
+                    <li><a href="../index1.html">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="menuu.html">Menu</a></li>
+                    
+                    <li><a href="contactus.html">Contact us</a></li>
+                </ul> 
+               
+            </div>
+           
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+    <!--Nav ends-->
+</header>
+    <!--Header ends-->
+    <!--Book reservation-->
+    <section class="order">
+        <div class="row">
+            <div id="bookTable" class="book">
+                <h2 id="bookNow">Book your table</h2>
+                <p>We offer you the best reservation service </p>
+                <div class="time">
+                    <h3>Time open</h3>
+                    <h4 id="heading-time">Monday-Sunday</h4>
+                    <p>7am-11am(Breakfast)</p>
+                    <p>11am-9pm(Lunch/Dinner)</p>
+                </div>
+            </div>
+            <div class="form-book">
+                <form id="form-table">
+                    <label for="nameoftheuser">Full name</label>
+                    <input type="text" id="nameoftheuser"pattern="[A-Za-z]{1,15}" name="typename" placeholder="Enter your name" required
+                        size="40">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="typeemail">
+                    <label for="user phone number">Phone number</label>
+                    <input type="tel" id="user phone number" name="typephonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        placeholder="123-345-6789" required><br>
+                    <label for="userdate">Date</label>
+                    <select id="userdate" name="day">
+                        <option value="monday">Monday</option>
+                        <option value="tuesday">Tuesday</option>
+                        <option value="wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Saturday</option>
+                        <option value="Sunday">Sunday</option>
+                    </select><br>
+                    <label for="usertime">Time</label>
+                    <input type="time" id="usertime" name="typetime" min="12" required>
+                    <label for="numberofpeople">Number of people</label>
+                    <select id="numberofpeople" name="numberofpeople">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="1">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+
+                    </select><br>
+
+
+                    <label for="type of table">Table Type</label>
+                    <input list="tables" id="type of table">
+                    <datalist id="tables">
+                        <option value="Messob">
+                        <option value="Circular table">
+                        <option value="Rectanngualr table">
+                    </datalist>
+                    <div class="continer">
+                        <button onclick = "window.location.href='menuu.html'">Menu</button>
+                    </div>
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div id="takeAway"class="book">
+                <h2 >TAKE AWAY</h2>
+                 <p>TAke home and enjoy with our delicious Ethiopian Food</p>
+            </div>
+            <div class="form-book">
+                <form action="" method="get">
+                    <label for="nameoftheuser">Enter your name</label><br>
+                    <input type="text" id="nameoftheuser" pattern="[A-Za-z]{1,15}" name="typename" placeorder="Enter your name" required><br>
+                    <label for="useremail">Email</label><br>
+                    <input type="email" id="useremail" name="typeemail"><br>
+                    <label for="user phone number">Enter your phonr number</label><br>
+                    <input type="tel" id="user phone number" name="typephonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        placeholder="123-345-6789" required><br>
+                    <label for="pickup">Time to pickup</label>
+                    <input type="time" name="pickup" id="">
+                    <div class="continer">
+                        <button onclick = "window.locatin.href='menuu.html'">Menu</button>
+                    </div>
+                    <input type="submit" value="Submit">
+
+
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div id="delivery" class="book">
+                <h2>DELIVERY</h2>
+                <p>Your favorite food delivered to your door</p>
+            </div>
+            <div class="form-book">
+                <form action="" method="get">
+                    <label for="nameoftheuser">Enter your name</label><br>
+                    <input type="text" id="nameoftheuser" pattern="[A-Za-z]{1,15}" name="typename" placeorder="Enter your name" required><br>
+                    <label for="useremail">Email</label><br>
+                    <input type="email" id="useremail" name="typeemail"><br>
+                    <label for="user phone number">Enter your phone number</label><br>
+                    <input type="tel" id="user phone number" name="typephonenumber" placeholder="123-345-5678"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+                    <label for="address">Enter your address</label>
+                    <input type="text" name="address" id="">
+                    <div class="continer">
+                        <button onclick = "window.location.href='menuu.html'">Menu</button>
+                    </div>
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+    
+    <!--footer section starts-->
+<footer class="footer">
+    <div class="row">
+       <div class="footer-col">
+           <h4>Our loction</h4>
+           <p>Ethiopia,Addis Ababa,<br>Kasaches
+        </p>
+       </div>
+       <div class="footer-col">
+        <h4>Opening hours</h4>
+        <p>Monday to Sunday<br>7:00 AM - 9:00 PM</p>
+    </div>
+    <div class="footer-col">
+        <h4>Quick links</h4>
+        
+        <ul>
+            <li><a href="../index1.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="../ideas/menuu.html">Menu</a></li>
+           
+            
+            <li><a href="#">Privay</a></li>
+            <li><a href="#">Terms of use</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h4>Contact us</h4>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/iftu.tesfaye.505"><i class="fab fa-facebook"></i></a>
+            <a href="https://t.me/Hggs12"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.instagram.com/edlghana"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="copyright">
+            <small>&copy Sen'q restaurant,All right are reserved.</small>
+        </div>
+    </div>
+</footer>
+<!--footer section starts-->
+
+</body>
+
+</html>

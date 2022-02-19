@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Login</title>
+       <link rel="stylesheet" href="../../..//resources/css/main.css">
+       <script src="../../..//resources/js/main.js"></script>
+     
+	
+    </head>
+    <body>
+        
+        
+        <div class="login">
+          <h1>Log in</h1>
+             <form action="../ideas/Book.html" method="post" >
+                    <label for="uname">Email</label>
+               <input type="email" id="email" name="uname" pattern="^([a-zA-Z0-9_\.]+)@([a-zA-Z0-9_\.]+)\.([a-zA-Z]{2,5})$" required><br>
+               <label for="psw">Password</label>
+                
+               <input type="password"  name="psw" id="password"  minlength="8"  required>
+               <span class="psw">Forgot <a href="#">password?</a></span> <br>
+               <input type="submit"value="Login" onclick="return check()">
+             <div class="sign-in-link">
+                <p>Don't have an account?<a href="sign up.html"> Signin now</a></p>                                                                                                                    
+            </div>
+            </form>
+              
+        </div>
+    </body>
+</html>
